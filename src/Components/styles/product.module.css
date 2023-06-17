@@ -1,0 +1,63 @@
+.body{
+    background-color: #111;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.searchDesktop{
+background-color: #111;
+width: 500px;
+}
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+  .product-grid {
+     width: fit-content;
+     margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    }
+ .filterPanel{ 
+  background-color: rgb(25,25,25);
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    padding: 1rem;
+ }
+ .mainGrid{
+   display: flex;
+
+
+ }
+.searchMobile{
+display:none !important;
+}
+@media screen and (width< 950px) {
+   .mainGrid{
+      flex-direction: column;
+   }
+   .filterPanel{
+      margin: 1rem;
+   }
+   .product-grid{
+      margin: 1rem 2rem 1rem 3rem;
+
+   }
+      .searchDesktop {
+        display: none !important;
+           }
+           .searchMobile{
+          display:block!important;
+           }
+    }
+    

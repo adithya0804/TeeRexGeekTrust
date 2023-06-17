@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 0 1rem;;
+}
+.headerTitle{
+    color:white;
+}
+
+.link{
+    text-decoration: none;
+}
+.cartIcon{
+    color: white;
+}
+.headerItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+}
+.active{
+color:white;
+border-bottom: 2px solid white;
+border-radius: 0;
+margin: 0.8rem;
+
+}
+.inactive{
+    color:white;
+    text-decoration: none;
+    margin: 0.8rem;
+}
+.quantity{
+    color: white;
+   position: relative;
+   bottom: 15px;
+   left: 5px;
+   text-decoration: none;
+}
+@media (max-width: 768px) {
+    .active {
+      display: none;
+    }
+  }

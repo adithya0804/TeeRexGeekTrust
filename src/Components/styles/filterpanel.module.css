@@ -1,0 +1,13 @@
+.filterBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+@media screen and (width<950px){
+    .filterBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+    }
+}
